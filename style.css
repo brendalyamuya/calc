@@ -1,4 +1,5 @@
-html{
+@import url('https://fonts.googleapis.com/css2?family=Montaga&family=Oswald:wght@300&display=swap');
+/* html{
     box-sizing: border-box;
 }
 
@@ -6,4 +7,58 @@ body{
     margin: 0;
     min-height: 100vh;
     
+} */
+
+.title{
+    display: flex;
+    justify-content: space-between;
 }
+
+.calculator{
+    background-color: #ccc;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid #555;
+    box-shadow: 2px 3px 10px 8px #888888;
+    margin-top: 100px;
+    
+   
+}
+
+.screen{
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 15px;
+    margin: 10px;
+    font-family: Montaga, sans-serif;
+    
+}
+
+.keypad {
+    display: flex;
+    justify-content: space-around;
+}
+
+.keypad .key{
+    border: 1px solid #555;
+    padding: 5px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(101, 99, 99);
+    border-radius: 15px / 10% 10% 65% 65%;
+    min-width: 30px;
+    color: #fff;
+    
+    
+}
+
+.key:hover{
+    background-color: #262626;
+
+}
+
+
